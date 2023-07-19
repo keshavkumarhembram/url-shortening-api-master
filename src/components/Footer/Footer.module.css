@@ -1,0 +1,24 @@
+.footer {
+  padding: 50px 10%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: var(--very-dark-violet);
+}
+
+.footer img {
+  height: fit-content;
+  filter: invert();
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer img {
+    width: 150px;
+    margin-bottom: 50px;
+  }
+}

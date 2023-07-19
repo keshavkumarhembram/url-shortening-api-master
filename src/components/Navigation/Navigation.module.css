@@ -1,0 +1,39 @@
+.nav-bar {
+  height: 6rem;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bar img {
+  height: fit-content;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-button {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: inherit;
+  color: var(--grayish-violet);
+}
+
+@media  screen and (max-width: 375px) {
+  .button {
+    display: none;
+  }
+}
+
+

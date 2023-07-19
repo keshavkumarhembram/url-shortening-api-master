@@ -1,0 +1,6 @@
+.advanced-statistics {
+  margin: 50px 10% 0px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

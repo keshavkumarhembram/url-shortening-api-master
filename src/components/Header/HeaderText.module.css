@@ -1,0 +1,25 @@
+.header-text {
+  width: 500px;
+}
+.header-text h1 {
+  line-height: 1.2;
+  font-size: 3.8rem;
+  color: var(--very-dark-violet);
+}
+
+.header-text p {
+  color: var(--grayish-violet);
+}
+
+.get-started-button {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 375px) {
+  .header-text {
+    text-align: center;
+  }
+  .header-text h1 {
+    font-size: 2.5rem;
+  }
+}

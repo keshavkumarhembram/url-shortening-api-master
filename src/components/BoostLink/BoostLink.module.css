@@ -1,0 +1,26 @@
+.boost-link {
+    height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  background: url("./images/bg-boost-desktop.svg"), var(--dark-violet);
+  background-size: cover;
+}
+
+.boost-link h1 {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 375px) {
+  .boost-link {
+    text-align: center;
+    height: 250px;
+  }
+
+  .boost-link h1 {
+    font-size: 25px;
+  }
+}

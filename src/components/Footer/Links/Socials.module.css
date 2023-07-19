@@ -1,0 +1,16 @@
+.social-list {
+  list-style: none;
+  display: flex;
+  filter: invert();
+  gap: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .social-list {
+    margin-top: 30px;
+  }
+  .social-list img{
+    width: 30px;
+  }
+}
+

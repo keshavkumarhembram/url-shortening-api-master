@@ -1,0 +1,72 @@
+.list-item {
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.short {
+  color: var(--cyan);
+}
+
+.copy-button {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  background-color: var(--cyan);
+  border: none;
+  border-radius: 7px;
+}
+
+.copied-button {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  background-color: var(--very-dark-blue);
+  border: none;
+  border-radius: 7px;
+}
+
+.copy-button:hover {
+  cursor: pointer;
+  background-color: rgb(154, 218, 218);
+}
+
+@media screen and (max-width: 375px) {
+  .list-item {
+    position: relative;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .list-item div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .original {
+    width: 100%;
+    height: 1.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  .copy-button, .copied-button {
+    margin-left: 0px;
+    width: 100%;
+  }
+}

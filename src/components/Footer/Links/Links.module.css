@@ -1,0 +1,38 @@
+.links-list {
+  display: flex;
+  gap: 20px;
+}
+
+.links-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+}
+
+.links-list p {
+  color: white;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.links-list a {
+  text-decoration: none;
+  color: var(--grayish-violet);
+}
+
+.links-list a:hover {
+  color: var(--cyan);
+}
+
+@media screen and (max-width: 375px) {
+  .links-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .links-list ul {
+    align-items: center;
+  }
+}

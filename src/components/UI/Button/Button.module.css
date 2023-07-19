@@ -1,0 +1,23 @@
+.button {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: var(--cyan);
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(154, 218, 218);
+}
+
+@media screen and (max-width: 375px) {
+  .button {
+    padding: .5rem 1rem;
+    width: 280px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,98 @@
+.shorten-url-form {
+  position: absolute;
+  width: 80%;
+  margin: -180px 10%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  border-radius: 8px;
+  background: url("./images/bg-shorten-desktop.svg"), var(--very-dark-blue);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shorten-url-form input {
+  width: calc(85% - 150px);
+  height: 20px;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.invalid-text {
+  display: none;
+}
+
+.shorten-url-form input::placeholder {
+  color: var(--gray);
+}
+
+.shorten-url-form button {
+  width: 150px;
+  height: 3.2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--cyan);
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.shorten-url-form button:hover {
+  cursor: pointer;
+  background-color: rgb(154, 218, 218);
+}
+
+.shorten-url-form input {
+  outline-color: var(--very-dark-blue);
+}
+
+.invalid input::placeholder {
+  color: rgb(248, 112, 112);
+}
+
+.invalid .invalid-text {
+  position: absolute;
+  left: calc(7.5% - 20px);
+  bottom: 30px;
+  font-size: 12px;
+  display: block;
+  color: rgb(248, 95, 95);
+}
+
+.invalid input:hover,
+:focus {
+  outline-color: rgb(248, 95, 95);
+}
+
+@media screen and (max-width: 375px) {
+  .shorten-url-form {
+   flex-direction: column;
+   align-items: center;
+   height: max-content;
+   padding: 1rem 0;
+  }
+
+  .shorten-url-form input {
+    width: 80%;
+  }
+  .shorten-url-form button {
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .invalid .invalid-text {
+    position: relative;
+    align-self: baseline;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 30px;
+    margin-bottom: -30px;
+  }
+}

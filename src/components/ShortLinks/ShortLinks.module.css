@@ -1,0 +1,7 @@
+.short-links-list {
+  margin: 30px 10%;
+  list-style: none;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}

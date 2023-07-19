@@ -1,0 +1,29 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summary h2 {
+  font-size: 2.5rem;
+}
+
+.summary p {
+  width: 62%;
+  text-align: center;
+  color: var(--grayish-violet);
+}
+
+@media screen and (max-width: 375px) {
+  .summary h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .summary p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: 16px;
+  }
+}
