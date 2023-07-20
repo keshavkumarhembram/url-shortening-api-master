@@ -16,6 +16,7 @@ const NavList = ({ hamburgerIconClick }) => {
         </li>
       </ul>
       <button
+        aria-label="Hamburger Icon"
         onClick={hamburgerIconClick}
         className={classes["hamburger-icon"]}
       >

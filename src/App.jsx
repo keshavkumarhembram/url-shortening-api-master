@@ -51,8 +51,8 @@ function App() {
         <ShortenURLForm onResponse={onResponseHandler} />
         <ShortLinks shortLinks={shortLinks} />
         <AdvancedStatistics />
+        <BoostLink />
       </main>
-      <BoostLink />
       <Footer />
     </>
   );

@@ -7,7 +7,7 @@ import Socials from "./Links/Socials";
 const Footer = () => {
   return (
     <footer className={classes.footer}>
-      <img src={logo} />
+      <img alt="Shortly logo" src={logo} />
       <Links />
       <Socials />
     </footer>
