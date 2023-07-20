@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   padding-left: 10%;
-  background: url("./images/illustration-working.svg");
+  background: url("/public/images/illustration-working.svg");
   background-repeat: no-repeat;
   background-position-x: calc(100% + 100px);
   background-position-y: bottom;
