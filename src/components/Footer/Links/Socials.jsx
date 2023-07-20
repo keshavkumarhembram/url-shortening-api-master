@@ -10,22 +10,38 @@ const Socials = () => {
     <ul className={classes["social-list"]}>
       <li>
         <a href="#">
-          <img className={classes['social-images']} src={facebookLogo}></img>
+          <img
+            className={classes["social-images"]}
+            alt="facebook icon"
+            src={facebookLogo}
+          ></img>
         </a>
       </li>
       <li>
         <a href="#">
-          <img className={classes['social-images']} src={twitterLogo}></img>
+          <img
+            className={classes["social-images"]}
+            alt="twitter icon"
+            src={twitterLogo}
+          ></img>
         </a>
       </li>
       <li>
         <a href="#">
-          <img className={classes['social-images']} src={pintrestLogo}></img>
+          <img
+            className={classes["social-images"]}
+            alt="pintrest icon"
+            src={pintrestLogo}
+          ></img>
         </a>
       </li>
       <li>
         <a href="#">
-          <img className={classes['social-images']} src={instagramLogo}></img>
+          <img
+            className={classes["social-images"]}
+            alt="instagram icon"
+            src={instagramLogo}
+          ></img>
         </a>
       </li>
     </ul>

@@ -5,7 +5,7 @@ import classes from "./ServicesCard.module.css";
 const ServicesCard = (props) => {
   return (
     <div className={classes["services-card"]}>
-      <img src={props.src}></img>
+      <img alt="Icon for service" src={props.src}></img>
       {props.children}
     </div>
   );

@@ -10,7 +10,7 @@ const Navigation = ({ hamburgerIconClick }) => {
   return (
     <nav className={classes["nav-bar"]}>
       <div className={classes["nav-list"]}>
-        <img src={logo}></img>
+        <img alt="Shortly logo" src={logo}></img>
         <NavList hamburgerIconClick={hamburgerIconClick} />
       </div>
       <div className={classes["button"]}>
