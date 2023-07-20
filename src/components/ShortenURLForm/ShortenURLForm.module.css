@@ -8,7 +8,8 @@
   gap: 20px;
   align-items: center;
   border-radius: 8px;
-  background: url("./images/bg-shorten-desktop.svg"), var(--very-dark-blue);
+  background: url("/public/images/bg-shorten-desktop.svg"),
+    var(--very-dark-blue);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,10 +73,11 @@
 
 @media screen and (max-width: 375px) {
   .shorten-url-form {
-   flex-direction: column;
-   align-items: center;
-   height: max-content;
-   padding: 1rem 0;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    padding: 1rem 0;
+    background: url("/public/images/bg-shorten-mobile.svg"), var(--very-dark-blue);
   }
 
   .shorten-url-form input {

@@ -8,8 +8,8 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
     - [Links](#links)
+    - [Screenshot](#screenshot)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
@@ -28,6 +28,11 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
 
+### Links
+
+- Solution URL: [GitHub Repository for Code](https://github.com/keshavkumarhembram/url-shortening-api-master)
+- Live Site URL: [Site Link of Final Result](https://url-shortening-api-master-opal.vercel.app/)
+- 
 ### Screenshot
 
 ![First screenshot of Result]('./../screenshots/desktop-1.png)
@@ -36,10 +41,6 @@ Users should be able to:
 
 ![Third screenshot of Result]('./../screenshots/desktop-3.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
